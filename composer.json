@@ -1,0 +1,15 @@
+{
+    "name": "test/eventCounter",
+    "description": "Test",
+    "require": {
+        "mongodb/mongodb": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "EventCounter\\": "src"
+        }
+    }
+}
